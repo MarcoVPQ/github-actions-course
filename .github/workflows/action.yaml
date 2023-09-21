@@ -6,4 +6,4 @@ jobs:
   say_hello:
     runs-on: test
     steps:
-        run: echo "Hello gurus"
+      - run: echo "Hello gurus"
