@@ -1,0 +1,9 @@
+name: Test
+on:
+ push:
+    branches: ['main']
+jobs:
+  say_hello:
+    runs-on: test
+    steps:
+        run: echo "Hello gurus"
